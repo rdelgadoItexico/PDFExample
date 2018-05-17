@@ -1,0 +1,7 @@
+<resources xmlns:gio="http://schemas.android.com/tools">
+    <string name="app_name">READI Response</string>
+
+    <string name="gen_pdf_file">Cargando</string>
+    <string name="gen_please_wait">Espere</string>
+
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1500px"
+    android:layout_height="2115px"
+    android:background="@android:color/background_light">
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/editText5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="City" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/editText4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Country" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20px"
+        android:layout_marginTop="20px"
+        android:text="Accident Report"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/editText5"
+        android:text="Alert time:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="2018-05-14 08:44:46 PM" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="05/14/18" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="08:44 PM" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-94dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_marginBottom="-94dp"
+        android:layout_toEndOf="@+id/editText3"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_marginBottom="-94dp"
+        android:layout_toEndOf="@+id/editText4"
+        android:text="Country" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_marginBottom="-94dp"
+        android:layout_toEndOf="@+id/editText5"
+        android:text="City" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText3"
+        android:text="Weather" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CLEAR" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_toEndOf="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DRY" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_toEndOf="@+id/editText4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DIRT" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_toEndOf="@+id/editText5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DAYLIGTH" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3"
+        android:text="Road Condition" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_toEndOf="@+id/editText4"
+        android:text="Road Costruction" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_toEndOf="@+id/editText5"
+        android:text="Ligth" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView14"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0.000820, -0.003072" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText7"
+        android:text="GPS Coordinates" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText11"
+        android:text="Investigator Name" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Jhon Doe" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText11"
+        android:layout_toEndOf="@+id/editText4"
+        android:text="Investigator Licence Number" />
+
+    <EditText
+        android:id="@+id/licenceEditText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_toEndOf="@+id/editText4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="keko" />
+
+</RelativeLayout>
